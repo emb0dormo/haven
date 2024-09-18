@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'GravesendSans-Medium';
+  src: url('@/assets/fonts/GravesendSans-Medium.otf') format('opentype');
+}
+
+body {
+  color: black; /* Set text color to black */
+}
