@@ -4,15 +4,11 @@
       <h1>Partners</h1>
       <ul>
         <li>
-          <span class="bullet">&bull;</span> <span class="partner-name">LINE Webtoon TH</span>
+          <span class="bullet">&bull;</span>
+          <span class="partner-name">LINE Webtoon TH</span>
+          <img src="@/assets/images/webtoon-logo.png" alt="Webtoon Logo" class="logo" />
         </li>
-        <!-- Added span for partner name -->
-        <!-- Add more partners as needed -->
       </ul>
-    </div>
-    <div class="right-section">
-      <img src="@/assets/images/webtoon-logo.png" alt="Webtoon Logo" />
-      <!-- Added Webtoon logo -->
     </div>
   </div>
 </template>
@@ -21,6 +17,8 @@
 .partners {
   min-height: 100vh;
   display: flex;
+  align-items: flex-start; /* Aligns elements at the top */
+  padding: 20px;
 }
 
 .left-section {
@@ -30,7 +28,8 @@
 
 h1 {
   font-size: 36px;
-  font-family: 'GravesendSans-Medium', sans-serif; /* Apply custom font */
+  font-family: 'GravesendSans-Medium', sans-serif;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -39,11 +38,11 @@ ul {
 }
 
 li {
-  font-size: 14px;
+  font-size: 16px;
   color: #555;
   margin-bottom: 10px;
-  display: flex; /* Ensure items are in a row */
-  align-items: center; /* Align items vertically */
+  display: flex;
+  align-items: center; /* Aligns bullet, text, and logo in a row vertically */
 }
 
 .bullet {
@@ -51,19 +50,13 @@ li {
 }
 
 .partner-name {
-  font-family: 'GravesendSans-Medium', sans-serif; /* Apply custom font */
+  margin-right: 10px;
 }
 
-.right-section {
-  flex: 1;
-  padding: 20px;
-  display: flex;
-  align-items: center; /* Align items vertically */
+.logo {
+  width: 22px;
+  height: auto;
+  margin-left: 10px; /* Space between text and logo */
 }
 
-.right-section img {
-  height: 20px; /* Adjust as needed */
-  margin-right: 10px; /* Add margin to separate from text */
-  margin-bottom: 238px; /* Adjust to align vertically with the text */
-}
 </style>

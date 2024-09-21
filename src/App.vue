@@ -41,83 +41,98 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import PageFooter from '@/components/PageFooter.vue' // Import PageFooter component
+import '@/assets/css/styles.css'
 </script>
 
 <style scoped>
-/* Style for the navigation container */
+/* Set a minimum height for the page */
+body,
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  width: 100vw; /* Full width */
+  font-size: 1.2rem;
+}
+
 .nav-container {
   display: flex;
   justify-content: center;
-  font-size: 16px;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  font-size: 2rem;
   text-align: center;
-  margin-top: 1rem;
-  background-color: transparent; /* Transparent background */
+  margin-top: 0;
+  background-color: transparent;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-/* Style for the navigation links */
 .nav-link {
-  margin: 0 1rem;
+  margin: 0 3rem;
   text-decoration: none;
-  color: black; /* Change the color for all navigation links */
-  font-family: 'GravesendSans-Medium', sans-serif; /* Use the custom font */
+  color: black;
+  font-family: 'GravesendSans-Medium', sans-serif;
 }
 
-/* Style for the bottom line */
 .bottom-line {
-  margin-top: 1.5%;
-  width: 102.25%;
+  margin-top: 0;
+  width: 100%;
   height: 1px;
-  background-color: #ccc; /* Grey color */
+  background-color: #ccc;
 }
 
-/* Style for the background photo */
 .background-photo {
-  background-image: url('your-background-photo.jpg'); /* Replace 'your-background-photo.jpg' with your actual photo path */
+  background-image: url('your-background-photo.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 16px; /* Adjust height as needed */
+  height: auto; /* Make background proportional */
+  max-height: 60vh;
+  margin-top: 0;
+  padding: 0;
 }
 
-/* Grey line above the footer */
 .grey-line {
-  margin-bottom: 1%;
-  margin-top: 10%;
+  margin-top: 0;
+  position: relative;
+  top: 0;
   width: 100%;
   height: 1px;
-  background-color: #ccc; /* Grey color */
+  background-color: #ccc;
 }
 
-/* Styles for the logos */
-.logo-container {
+.logo-container,
+.logo-container-left {
   position: absolute;
+}
+
+.logo-container {
   top: 10px;
   right: 15px;
 }
 
 .logo-container-left {
-  position: absolute;
   top: -3px;
   left: 15px;
 }
 
 .logo-container-left img {
   width: 55px;
-  height: auto;
 }
 
 .logo-container img {
   width: 25px;
-  height: auto;
 }
-
-/* Additional styles */
-body {
-  color: black; /* Set the color for the entire text on the website */
-  margin-bottom: 50px; /* Ensure content does not overlap with the footer */
-}
-
 .main {
-  padding: 1rem;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  width: 100%;
+  margin: 0, auto;
 }
 </style>

@@ -22,9 +22,9 @@
 }
 
 .top-section {
-  margin-top: -2.1%;
-  width: 102.2%;
+  margin-top: 0;
   position: relative;
+  width: 100%;
   min-height: 200px;
   display: flex;
   align-items: center;
@@ -35,7 +35,7 @@
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 2vw; /* Responsive scaling for the heading */
   font-family: 'GravesendSans-Medium', sans-serif;
   color: black;
 }
@@ -44,17 +44,31 @@ h1 {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
+  flex-wrap: wrap; /* Wrap buttons on smaller screens */
+  gap: 20px; /* Adds space between buttons */
 }
 
 button {
   position: relative;
-  padding: 10px 0; /* Adjusted padding to vertically center the text */
-  font-size: 16px;
+  padding: 15px 30px; /* Larger padding for better spacing */
+  font-size: 2vw;
   color: #000;
   background-color: transparent; /* Set background color to transparent */
   border: none;
+  border-radius: 5px;
   cursor: pointer;
   font-family: 'GravesendSans-Medium', sans-serif;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  outline: none;
+}
+
+button:hover,
+button:focus {
+  background-color: transparent;
+  color: #000; /* Ensures the text color stays the same */
+  text-decoration: none; /* Prevents underline or hover effects */
+  outline: none;
+  box-shadow: none;
 }
 
 /* Add a thin gray line under each button */
@@ -67,5 +81,14 @@ button::after {
   width: 100%; /* Adjusted width to cover half of the button */
   height: 1px;
   background-color: #ccc;
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 36px; /* Set a fixed size for larger screens */
+  }
+
+  button {
+    font-size: 18px; /* Fixed size for buttons on larger screens */
+  }
 }
 </style>

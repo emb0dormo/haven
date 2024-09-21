@@ -20,34 +20,34 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative; /* Ensure the absolute positioning of the background */
+  position: relative; /* Keep relative for background positioning */
 }
 
 .background {
   position: absolute;
-  top: -0.5;
+  top: 0; /* Set to 0 to avoid fractional units */
   left: 0;
-  width: 102.3%;
-  height: 108%;
-  background-image: url('@/assets/images/HomeBackgroundPhoto.jpg'); /* Set the background image */
-  background-size: cover; /* Cover the entire container */
-  background-position: center; /* Center the background image */
-  opacity: 0.5; /* Adjust the opacity as needed */
+  width: 100%; /* Adjusted to 100% for better scaling */
+  height: 100vh;
+  background-image: url('@/assets/images/HomeBackgroundPhoto.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
 }
 
 .content {
   text-align: center;
-  z-index: 1; /* Ensure content is above the background */
+  z-index: 1;
 }
 
 .title {
-  font-family: 'GravesendSans-Medium', sans-serif; /* Use the custom font */
+  font-family: 'GravesendSans-Medium', sans-serif;
   font-size: 36px;
-  margin-bottom: 20px; /* Add margin bottom to create space between title and paragraph */
+  margin-bottom: 20px;
 }
 
 p {
-  font-family: 'GravesendSans-Medium', sans-serif; /* Use the custom font */
+  font-family: 'GravesendSans-Medium', sans-serif;
   font-size: 18px;
   color: #555;
 }

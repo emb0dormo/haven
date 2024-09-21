@@ -24,7 +24,7 @@ export default {
 .footer {
   width: 100%;
   background-color: transparent; /* Make the background color transparent */
-  padding: 20px;
+  padding: 20px 10px;
   text-align: center;
 }
 
@@ -34,7 +34,7 @@ export default {
 }
 
 .footer-content p {
-  font-size: 10px;
-  margin-bottom: 10px;
+  font-size: 12px;
+  margin-bottom: 8px;
 }
 </style>

@@ -61,8 +61,10 @@ export default {
 
 .right-section {
   flex: 1;
-  padding: 20px;
-  margin-top: -1.5%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .title {
@@ -72,7 +74,7 @@ export default {
 }
 
 .content {
-  font-size: 13px; /* Adjust content font size */
+  font-size: 15px; /* Adjust content font size */
   color: rgb(82, 76, 76);
 }
 </style>

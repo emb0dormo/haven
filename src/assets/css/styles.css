@@ -1,0 +1,45 @@
+/* Global media query for screens smaller than 768px (tablet) */
+@media only screen and (max-width: 768px) {
+  .main-container {
+    display: flex; /* Or flex */
+    flex-direction: column;
+    width: 100%; /* Use full width */
+    max-width: 100%;
+  }
+  .nav-container {
+    font-size: 1.2rem;
+  }
+
+  .background-photo {
+    height: auto;
+    background-size: cover;
+  }
+
+  .logo-container-left img {
+    width: 40px;
+  }
+
+  .logo-container img {
+    width: 20px;
+  }
+}
+
+/* Global media query for smaller mobile screens */
+@media only screen and (max-width: 480px) {
+  .nav-link {
+    margin: 0 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  .background-photo {
+    height: 200px;
+  }
+
+  .logo-container-left img {
+    width: 30px;
+  }
+
+  .logo-container img {
+    width: 15px;
+  }
+}

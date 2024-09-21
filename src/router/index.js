@@ -57,7 +57,13 @@ const router = createRouter({
       path: '/Projects', // Add the route for ProjectsView
       name: 'projects',
       component: ProjectsView
+    },
+    {
+      path: '/OEMODM',
+      name: 'OEMODM',
+      component: () => import('@/views/OEMODM.vue')
     }
+    
   ]
 })
 

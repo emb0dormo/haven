@@ -94,13 +94,13 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 2rem;
   font-family: 'GravesendSans-Medium', sans-serif;
   text-align: center;
 }
 
 .small-text {
-  font-size: 14px;
+  font-size: 1.2rem;
   color: black;
   font-family: 'GravesendSans-Medium', sans-serif;
   text-align: center;
@@ -115,13 +115,14 @@ h2 {
 }
 
 .bl-development h2 {
-  font-size: 20px;
+  font-size: 2rem;
+  color: black;
   font-family: 'GravesendSans-Medium', sans-serif;
   text-align: center;
 }
 
 .bl-development p {
-  font-size: 14px;
+  font-size: 1.2rem;
   color: black;
   font-family: 'GravesendSans-Medium', sans-serif;
   text-align: center;
