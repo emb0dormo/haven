@@ -6,7 +6,7 @@
     <div class="right-section">
       <h2 class="title">Popup Stores</h2>
       <p class="description">
-        We understand that shopping is an experience, and our pop-up stores are a testament to that
+        We understand that shopping is an  experience, and our pop-up stores are a testament to that
         belief. These temporary retail spaces are carefully curated to offer a unique and immersive
         shopping experience, allowing you to explore our products up close and personal.
       </p>

@@ -9,7 +9,7 @@
       <router-link to="/PopupStores"><button>Pop-up Stores</button></router-link>
       <router-link to="/Merchandise"><button>Merchandise</button></router-link>
     </div>
-    <!-- Display the projects section below the buttons -->
+    <!-- Display the projects section below the buttons just for sure -->
     <router-view></router-view>
   </div>
 </template>

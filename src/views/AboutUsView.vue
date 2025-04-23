@@ -90,7 +90,7 @@ h1 {
 h1 {
   font-size: 36px;
   font-family: 'GravesendSans-Medium', sans-serif;
-  margin-top: 0; /* Adjust margin-top to bring the title closer to the background */
+  margin-top: 0; /* Adjust margin-dtop to bring the title closer to the background */
 }
 
 h2 {

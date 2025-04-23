@@ -10,7 +10,7 @@
       <p class="description">
         The Haven takes pride in crafting premium goods that are not only aesthetically pleasing
         but also functional. From exquisite homeware to fashionable accessories, our products are
-        meticulously designed to cater to your lifestyle and preferences.
+        meticulously designed to cater to your lifestyle and preference.
       </p>
     </div>
   </div>

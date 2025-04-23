@@ -37,7 +37,7 @@ export default {
     }
   },
   mounted() {
-    // Set the selected news to the first news item when the component is mounted
+    // Set the selected news to first news item when the component is mounted
     this.selectedNews = this.news[0]
   }
 }

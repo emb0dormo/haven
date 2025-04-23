@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Move the content to the top */
+  justify-content: flex-start; /* Move the content to the top  */
   padding: 20px;
 }
 

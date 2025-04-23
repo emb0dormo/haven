@@ -3,7 +3,7 @@
     <div class="content">
       <h1 class="title">The Haven Co., Ltd</h1>
       <!-- <p>(photo background)</p> -->
-      <!-- Add other content as needed -->
+      <!-- Add other content if needed -->
     </div>
     <div class="background"></div>
   </div>

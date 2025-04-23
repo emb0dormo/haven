@@ -47,7 +47,7 @@ export default {
 
 .project-title {
   font-size: 18px;
-  color: black; /* Set the color of the project title to black */
+  color: black; /* Set  the color of the project title to black */
 }
 
 .icon-space {

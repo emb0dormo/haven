@@ -17,7 +17,7 @@
 .partners {
   min-height: 100vh;
   display: flex;
-  align-items: flex-start; /* Aligns elements at the top */
+  align-items: flex-start; /* Aligns elements at the top  */
   padding: 20px;
 }
 
